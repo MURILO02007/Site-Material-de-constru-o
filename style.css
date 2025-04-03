@@ -1,0 +1,48 @@
+.container{
+    position: relative;
+    background-color: rgb(102, 0, 0);
+    border-radius: 10px;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 50px auto;
+    width: 400px;
+    box-shadow: 0 0 10px #000000;
+}
+
+body{
+    margin: 0;
+}
+
+header {
+    background-color: rgb(102, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    gap: 10px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    /* transition: 1s;  */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
